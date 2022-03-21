@@ -1,0 +1,59 @@
+body {
+  background-color: #f5d9df;
+  font-family: "Nunito";
+  overflow-x: hidden;
+  #main-nav {
+    font-weight: 100;
+    .brand {
+      font-size: 1.6rem;
+      color: #ea1c2c;
+    }
+    .nav-link {
+      color: black;
+      font-size: 1.2rem;
+    }
+    .nav-link:hover {
+      color: #ea1c2c;
+    }
+  }
+  #section1 {
+    .candy {
+      h2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2rem;
+        line-height: 1.5;
+        .slash {
+          color: red;
+        }
+      }
+    }
+  }
+  .data {
+    padding: 15% 0 15%;
+  }
+  #section2,
+  #section3,
+  #section4 {
+    text-align: center;
+    .credits {
+      font-size: 1.2rem;
+      span {
+        color: red;
+      }
+    }
+  }
+  @media (max-width: 1100px) {
+    #section1 {
+      .candy {
+        margin-top: 0rem;
+      }
+    }
+  }
+  @media (min-width: 0px) and (max-width: 400px) {
+    body {
+      padding-right: -15rem;
+      overflow-x: hidden;
+    }
+  }
+}
